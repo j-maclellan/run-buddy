@@ -12,3 +12,5 @@ hhtps://lernantio.github.io/run-buddy/
 
 ## Contribution
 Made with ❤ by John 
+
+# Run Buddy Inc.
