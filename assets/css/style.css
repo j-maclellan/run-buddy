@@ -120,10 +120,6 @@ body {
 
 /* What Do Start */
 
-.intro {
-    text-align: center;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -131,19 +127,21 @@ body {
     font-size: 20px;
     /* add this alongside your other declarations */
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
+   
     background: #fce138;
 }
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     border-bottom: 3px solid;
 }
 
@@ -180,7 +178,7 @@ body {
 
 /* Reach out Styles Start */
 .contact {
-    text-align: center;
+    
     background: #024e76;
 }
 
@@ -216,7 +214,7 @@ body {
 /* Reach out Styles End */
 
 .trainers {
-    text-align: center;
+    
 }
 
 .trainer {
@@ -236,14 +234,6 @@ body {
     padding: 35px;
     float: left;
     width: 65%;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
 }
 
 .trainer-bio h3 {
@@ -289,4 +279,16 @@ footer a {
 /* Footer Style end */
 section {
     padding: 60px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
